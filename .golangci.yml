@@ -104,12 +104,6 @@ issues:
         - funlen
         - dupl
 
-run:
-  skip-dirs:
-    - internal/gql/gen
-    - pkg/crud
-    - cmd/tmp
-
 # golangci.com configuration
 # https://github.com/golangci/golangci/wiki/Configuration
 service:
